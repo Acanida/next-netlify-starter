@@ -20,7 +20,7 @@ export default function Home() {
 <p>The git config command is a convenience function that is used to set Git configuration values on a global or local project level.
 </p>
 
-<div id="highlight js-code-highlight">
+<div id="card">
 <pre id="highlight plaintext"><code>git config -l
 </code></pre>
 
@@ -37,7 +37,7 @@ export default function Home() {
 <p>Name and Email address assigned to commit from local computer.
 </p>
 
-<div id="highlight js-code-highlight">
+<div id="card">
 <pre id="highlight plaintext"><code>git config --global user.name "Tabassum"
 git config --global user.email "tabassum@gmail.com"
 </code></pre>
@@ -53,7 +53,7 @@ git config --global user.email "tabassum@gmail.com"
 <p>This command turns a directory into an empty Git repo.
 </p>
 
-<div id="highlight js-code-highlight">
+<div id="card">
 <pre id="highlight plaintext"><code>git init
 </code></pre>
 
@@ -68,7 +68,7 @@ git config --global user.email "tabassum@gmail.com"
 <p>The command below will add a file to the staging area. Just replace filename_here with the name of the file you want to add to the staging area.
 </p>
 
-<div id="highlight js-code-highlight">
+<div id="card">
 <pre id="highlight plaintext"><code>git add filename_here
 </code></pre>
 
@@ -83,7 +83,7 @@ git config --global user.email "tabassum@gmail.com"
 <p>If you want to add all files in your project to the staging area, you can use a wildcard. and every file will be added for you.
 </p>
 
-<div id="highlight js-code-highlight">
+<div id="card">
 <pre id="highlight plaintext"><code>git add .
 </code></pre>
 
@@ -98,7 +98,7 @@ git config --global user.email "tabassum@gmail.com"
 <p>Records the change made for the files in a local repo.
 </p>
 
-<div id="highlight js-code-highlight">
+<div id="card">
 <pre id="highlight plaintext"><code>git commit
 </code></pre>
 
@@ -109,7 +109,7 @@ git config --global user.email "tabassum@gmail.com"
 <p>You can add a commit message without opening the editor. This command lets you only specify a short summary for your commit message.
 </p>
 
-<div id="highlight js-code-highlight">
+<div id="card">
 <pre id="highlight plaintext"><code>git commit -m "first commit"
 </code></pre>
 
@@ -124,7 +124,7 @@ git config --global user.email "tabassum@gmail.com"
 <p>This command shows the commit history for the current repository.
 </p>
 
-<div id="highlight js-code-highlight">
+<div id="card">
 <pre id="highlight plaintext"><code>git log
 </code></pre>
 
@@ -139,7 +139,7 @@ git config --global user.email "tabassum@gmail.com"
 <p>This command returns the current status of the repo. If a file is in the staging area, but not committed, it shows, with git status.
 </p>
 
-<div id="highlight js-code-highlight">
+<div id="card">
 <pre id="highlight plaintext"><code>git status
 </code></pre>
 
@@ -154,7 +154,7 @@ git config --global user.email "tabassum@gmail.com"
 <p>This command expects a commit message to explain why the file was deleted.
 </p>
 
-<div id="highlight js-code-highlight">
+<div id="card">
 <pre id="highlight plaintext"><code>git rm filename
 </code></pre>
 
@@ -169,7 +169,7 @@ git config --global user.email "tabassum@gmail.com"
 <p>This command stages the changes, then it expects a commit message.
 </p>
 
-<div id="highlight js-code-highlight">
+<div id="card">
 <pre id="highlight plaintext"><code>git mv oldfile newfile
 </code></pre>
 
@@ -184,7 +184,7 @@ git config --global user.email "tabassum@gmail.com"
 <p>By default, you have one branch, the main branch. With this command, you can create a new branch. Git won't switch to it automatically – you will need to do it manually with the next command.
 </p>
 
-<div id="highlight js-code-highlight">
+<div id="card">
 <pre id="highlight plaintext"><code>git branch branch_name
 </code></pre>
 
@@ -199,7 +199,7 @@ git config --global user.email "tabassum@gmail.com"
 <p>When you want to use a different or a newly created branch you can use this command:
 </p>
 
-<div id="highlight js-code-highlight">
+<div id="card">
 <pre id="highlight plaintext"><code>git checkout branch_name
 </code></pre>
 
@@ -214,7 +214,7 @@ git config --global user.email "tabassum@gmail.com"
 <p>You can view all created branches using the git branch command. It will show a list of all branches and mark the current branch with an asterisk and highlight it in green.
 </p>
 
-<div id="highlight js-code-highlight">
+<div id="card">
 <pre id="highlight plaintext"><code>git branch
 </code></pre>
 
@@ -229,7 +229,7 @@ git config --global user.email "tabassum@gmail.com"
 <p>In a single command, you can create and switch to a new branch right away.
 </p>
 
-<div id="highlight js-code-highlight">
+<div id="card">
 <pre id="highlight plaintext"><code>git checkout -b branch_name
 </code></pre>
 
@@ -244,7 +244,7 @@ git config --global user.email "tabassum@gmail.com"
 <p>To merge the history of the branch you are currently in with the branch_name, you will need to use the command below:
 </p>
 
-<div id="highlight js-code-highlight">
+<div id="card">
 <pre id="highlight plaintext"><code>git merge branch_name
 </code></pre>
 
@@ -259,7 +259,7 @@ git config --global user.email "tabassum@gmail.com"
 <p>This command adds a remote repository to your local repository
 </p>
 
-<div id="highlight js-code-highlight">
+<div id="card">
 <pre id="highlight plaintext"><code>git add remote https://repo_here
 </code></pre>
 
@@ -274,7 +274,7 @@ git config --global user.email "tabassum@gmail.com"
 <p>Git clone is a command for downloading existing source code from a remote repository (like Github, for example). In other words, Git clone basically makes an identical copy of the latest version of a project in a repository and saves it to your computer.
 </p>
 
-<div id="highlight js-code-highlight">
+<div id="card">
 <pre id="highlight plaintext"><code>git clone
 </code></pre>
 
@@ -289,7 +289,7 @@ git config --global user.email "tabassum@gmail.com"
 <p>The git pull command allows you to download updates from a remote repository. Using this command, you execute both git fetch and git merge operations, which means local changes are updated and updates are uploaded to remote repositories
 </p>
 
-<div id="highlight js-code-highlight">
+<div id="card">
 <pre id="highlight plaintext"><code>git pull
 </code></pre>
 
@@ -304,7 +304,7 @@ git config --global user.email "tabassum@gmail.com"
 <p>After committing your changes, the next thing you want to do is send your changes to the remote server. Git push uploads your commits to the remote repository.
 </p>
 
-<div id="highlight js-code-highlight">
+<div id="card">
 <pre id="highlight plaintext"><code>git push
 </code></pre>
 </div>
@@ -314,7 +314,7 @@ git config --global user.email "tabassum@gmail.com"
 <p>force push:
 </p>
 
-<div id="highlight js-code-highlight">
+<div id="card">
 <pre id="highlight plaintext"><code>git push -f
 </code></pre>
 </div>
@@ -329,7 +329,7 @@ git config --global user.email "tabassum@gmail.com"
 <p>You can transfer completed work from one branch to another using git-rebase.
 </p>
 
-<div id="highlight js-code-highlight">
+<div id="card">
 <pre id="highlight plaintext"><code>git rebase branch_name_here
 </code></pre>
 
