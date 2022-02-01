@@ -21,8 +21,8 @@ export default function Home() {
 </p>
 
 <div id="card">
-<pre id="highlight plaintext">git config -l
-</pre>
+<p id="highlight plaintext">git config -l
+</p>
 
 </div>
 
@@ -38,9 +38,9 @@ export default function Home() {
 </p>
 
 <div id="card">
-<pre id="highlight plaintext">git config --global user.name "Tabassum"
+<p id="highlight plaintext">git config --global user.name "Tabassum"
 git config --global user.email "tabassum@gmail.com"
-</pre>
+</p>
 
 </div>
 
@@ -54,8 +54,8 @@ git config --global user.email "tabassum@gmail.com"
 </p>
 
 <div id="card">
-<pre id="highlight plaintext">git init
-</pre>
+<p id="highlight plaintext">git init
+</p>
 
 </div>
 
@@ -69,8 +69,8 @@ git config --global user.email "tabassum@gmail.com"
 </p>
 
 <div id="card">
-<pre id="highlight plaintext">git add filename_here
-</pre>
+<p id="highlight plaintext">git add filename_here
+</p>
 
 </div>
 
@@ -84,8 +84,8 @@ git config --global user.email "tabassum@gmail.com"
 </p>
 
 <div id="card">
-<pre id="highlight plaintext">git add .
-</pre>
+<p id="highlight plaintext">git add .
+</p>
 
 </div>
 
@@ -99,8 +99,8 @@ git config --global user.email "tabassum@gmail.com"
 </p>
 
 <div id="card">
-<pre id="highlight plaintext">git commit
-</pre>
+<p id="highlight plaintext">git commit
+</p>
 
 </div>
 
@@ -110,8 +110,8 @@ git config --global user.email "tabassum@gmail.com"
 </p>
 
 <div id="card">
-<pre id="highlight plaintext">git commit -m "first commit"
-</pre>
+<p id="highlight plaintext">git commit -m "first commit"
+</p>
 
 </div>
 
@@ -125,8 +125,8 @@ git config --global user.email "tabassum@gmail.com"
 </p>
 
 <div id="card">
-<pre id="highlight plaintext">git log
-</pre>
+<p id="highlight plaintext">git log
+</p>
 
 </div>
 
@@ -140,8 +140,8 @@ git config --global user.email "tabassum@gmail.com"
 </p>
 
 <div id="card">
-<pre id="highlight plaintext">git status
-</pre>
+<p id="highlight plaintext">git status
+</p>
 
 </div>
 
@@ -155,8 +155,8 @@ git config --global user.email "tabassum@gmail.com"
 </p>
 
 <div id="card">
-<pre id="highlight plaintext">git rm filename
-</pre>
+<p id="highlight plaintext">git rm filename
+</p>
 
 </div>
 
@@ -170,8 +170,8 @@ git config --global user.email "tabassum@gmail.com"
 </p>
 
 <div id="card">
-<pre id="highlight plaintext">git mv oldfile newfile
-</pre>
+<p id="highlight plaintext">git mv oldfile newfile
+</p>
 
 </div>
 
@@ -185,8 +185,8 @@ git config --global user.email "tabassum@gmail.com"
 </p>
 
 <div id="card">
-<pre id="highlight plaintext">git branch branch_name
-</pre>
+<p id="highlight plaintext">git branch branch_name
+</p>
 
 </div>
 
@@ -200,8 +200,8 @@ git config --global user.email "tabassum@gmail.com"
 </p>
 
 <div id="card">
-<pre id="highlight plaintext">git checkout branch_name
-</pre>
+<p id="highlight plaintext">git checkout branch_name
+</p>
 
 </div>
 
@@ -215,8 +215,8 @@ git config --global user.email "tabassum@gmail.com"
 </p>
 
 <div id="card">
-<pre id="highlight plaintext">git branch
-</pre>
+<p id="highlight plaintext">git branch
+</p>
 
 </div>
 
@@ -230,8 +230,8 @@ git config --global user.email "tabassum@gmail.com"
 </p>
 
 <div id="card">
-<pre id="highlight plaintext">git checkout -b branch_name
-</pre>
+<p id="highlight plaintext">git checkout -b branch_name
+</p>
 
 </div>
 
@@ -245,8 +245,8 @@ git config --global user.email "tabassum@gmail.com"
 </p>
 
 <div id="card">
-<pre id="highlight plaintext">git merge branch_name
-</pre>
+<p id="highlight plaintext">git merge branch_name
+</p>
 
 </div>
 
@@ -260,8 +260,8 @@ git config --global user.email "tabassum@gmail.com"
 </p>
 
 <div id="card">
-<pre id="highlight plaintext">git add remote https://repo_here
-</pre>
+<p id="highlight plaintext">git add remote https://repo_here
+</p>
 
 </div>
 
@@ -275,8 +275,8 @@ git config --global user.email "tabassum@gmail.com"
 </p>
 
 <div id="card">
-<pre id="highlight plaintext">git clone
-</pre>
+<p id="highlight plaintext">git clone
+</p>
 
 </div>
 
@@ -290,8 +290,8 @@ git config --global user.email "tabassum@gmail.com"
 </p>
 
 <div id="card">
-<pre id="highlight plaintext">git pull
-</pre>
+<p id="highlight plaintext">git pull
+</p>
 
 </div>
 
@@ -305,8 +305,8 @@ git config --global user.email "tabassum@gmail.com"
 </p>
 
 <div id="card">
-<pre id="highlight plaintext">git push
-</pre>
+<p id="highlight plaintext">git push
+</p>
 </div>
 
 
@@ -315,8 +315,8 @@ git config --global user.email "tabassum@gmail.com"
 </p>
 
 <div id="card">
-<pre id="highlight plaintext">git push -f
-</pre>
+<p id="highlight plaintext">git push -f
+</p>
 </div>
 
 
