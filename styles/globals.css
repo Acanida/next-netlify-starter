@@ -39,15 +39,30 @@ code {
   min-width: 0;
   word-wrap: break-word;
   background-clip: border-box;
-  border: 1px solid rgba(0, 0, 0, .125);
+  border: 15px solid rgba(0, 0, 0, .125);
   border-radius: 0.25rem;
   background: #007bff;
-
+  color: white;
+  font-weight: bolder;
 }
+
+#card2 {
+  flex-direction: column;
+  min-width: 0;
+  word-wrap: break-word;
+  background-clip: border-box;
+  border: 15px solid rgba(71, 175, 41, .125);
+  border-radius: 0.25rem;
+  background: #47AF29;
+  color: white;
+  font-weight: bolder;
+}
+
 
 #highlight plaintext{
    position:relative;
    margin:0.1em;
+  color: white;
  }
 #highlight plaintext:before{
   content:"";
@@ -62,4 +77,5 @@ code {
   border-left-color:transparent;
   border-right-color:transparent;
   background:#A7A7A7;
+
 }

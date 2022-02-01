@@ -14,8 +14,10 @@ export default function Home() {
       <main>
     
 
-  <div id="1-how-to-check-your-git-configuration"> #1-how-to-check-your-git-configuration
-  </div>
+  <div id="card2">
+    <div id="highlight plaintext">
+    #1-how-to-check-your-git-configuration
+    </div></div>
 
 <p>The git config command is a convenience function that is used to set Git configuration values on a global or local project level.
 </p>
@@ -163,8 +165,10 @@ git config --global user.email "tabassum@gmail.com"
 
 
 
-  <div id="10-rename-files"> #10-rename-files
-  </div>
+  <div id="card2">
+    <div id="highlight plaintext">
+    #10-rename-files
+    </div></div>
 
 <p>This command stages the changes, then it expects a commit message.
 </p>
@@ -178,8 +182,10 @@ git config --global user.email "tabassum@gmail.com"
 
 
 
-  <div id="11-create-a-new-branch"> #11-create-a-new-branch
-  </div>
+  <div id="card2">
+    <div id="highlight plaintext">
+    #11-create-a-new-branch
+    </div></div>
 
 <p>By default, you have one branch, the main branch. With this command, you can create a new branch. Git won't switch to it automatically – you will need to do it manually with the next command.
 </p>
@@ -193,8 +199,10 @@ git config --global user.email "tabassum@gmail.com"
 
 
 
-  <div id="12-switch-to-a-newly-created-branch"> #12-switch-to-a-newly-created-branch
-  </div>
+  <div id="card2">
+    <div id="highlight plaintext">
+    #12-switch-to-a-newly-created-branch
+    </div></div>
 
 <p>When you want to use a different or a newly created branch you can use this command:
 </p>
@@ -208,8 +216,10 @@ git config --global user.email "tabassum@gmail.com"
 
 
 
-  <div id="13-list-branches"> #13-list-branches
-  </div>
+  <div id="card2">
+    <div id="highlight plaintext">
+    #13-list-branches
+    </div></div>
 
 <p>You can view all created branches using the git branch command. It will show a list of all branches and mark the current branch with an asterisk and highlight it in green.
 </p>
@@ -223,8 +233,10 @@ git config --global user.email "tabassum@gmail.com"
 
 
 
-  <div id="14-create-a-branch-in-git-and-switch-to-it-immediately"> #14-create-a-branch-in-git-and-switch-to-it-immediately
-  </div>
+  <div id="card2">
+    <div id="highlight plaintext">
+    #14-create-a-branch-in-git-and-switch-to-it-immediately
+    </div></div>
 
 <p>In a single command, you can create and switch to a new branch right away.
 </p>
@@ -238,8 +250,10 @@ git config --global user.email "tabassum@gmail.com"
 
 
 
-  <div id="15-merge-two-branches"> #15-merge-two-branches
-  </div>
+  <div id="card2">
+    <div id="highlight plaintext">
+    #15-merge-two-branches
+    </div></div>
 
 <p>To merge the history of the branch you are currently in with the branch_name, you will need to use the command below:
 </p>
@@ -253,8 +267,10 @@ git config --global user.email "tabassum@gmail.com"
 
 
 
-  <div id="16-add-a-remote-repository-in-git"> #16-add-a-remote-repository-in-git
-  </div>
+  <div id="card2">
+    <div id="highlight plaintext">
+    #16-add-a-remote-repository-in-git
+    </div></div>
 
 <p>This command adds a remote repository to your local repository
 </p>
@@ -268,8 +284,10 @@ git config --global user.email "tabassum@gmail.com"
 
 
 
-  <div id="17-cloning-other-repos"> #17-cloning-other-repos
-  </div>
+  <div id="card2">
+    <div id="highlight plaintext">
+    #17-cloning-other-repos
+    </div></div>
 
 <p>Git clone is a command for downloading existing source code from a remote repository (like Github, for example). In other words, Git clone basically makes an identical copy of the latest version of a project in a repository and saves it to your computer.
 </p>
@@ -283,8 +301,10 @@ git config --global user.email "tabassum@gmail.com"
 
 
 
-  <div id="18-pull-changes-to-a-remote-repo"> #18-pull-changes-to-a-remote-repo
-  </div>
+  <div id="card2">
+    <div id="highlight plaintext">
+    #18-pull-changes-to-a-remote-repo
+    </div></div>
 
 <p>The git pull command allows you to download updates from a remote repository. Using this command, you execute both git fetch and git merge operations, which means local changes are updated and updates are uploaded to remote repositories
 </p>
@@ -298,8 +318,10 @@ git config --global user.email "tabassum@gmail.com"
 
 
 
-  <div id="19-push-changes-to-a-remote-repo"> #19-push-changes-to-a-remote-repo
-  </div>
+  <div id="card2">
+    <div id="highlight plaintext">
+    #19-push-changes-to-a-remote-repo
+    </div></div>
 
 <p>After committing your changes, the next thing you want to do is send your changes to the remote server. Git push uploads your commits to the remote repository.
 </p>
