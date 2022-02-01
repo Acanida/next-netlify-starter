@@ -330,8 +330,8 @@ git config --global user.email "tabassum@gmail.com"
 </p>
 
 <div id="card">
-<pre id="highlight plaintext">git rebase branch_name_here
-</pre>
+<p id="highlight plaintext">git rebase branch_name_here
+</p>
 
 </div>
 
