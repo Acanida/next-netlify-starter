@@ -21,8 +21,8 @@ export default function Home() {
 </p>
 
 <div id="card">
-<pre id="highlight plaintext"><code>git config -l
-</code></pre>
+<pre id="highlight plaintext">git config -l
+</pre>
 
 </div>
 
@@ -38,9 +38,9 @@ export default function Home() {
 </p>
 
 <div id="card">
-<pre id="highlight plaintext"><code>git config --global user.name "Tabassum"
+<pre id="highlight plaintext">git config --global user.name "Tabassum"
 git config --global user.email "tabassum@gmail.com"
-</code></pre>
+</pre>
 
 </div>
 
@@ -54,8 +54,8 @@ git config --global user.email "tabassum@gmail.com"
 </p>
 
 <div id="card">
-<pre id="highlight plaintext"><code>git init
-</code></pre>
+<pre id="highlight plaintext">git init
+</pre>
 
 </div>
 
@@ -69,8 +69,8 @@ git config --global user.email "tabassum@gmail.com"
 </p>
 
 <div id="card">
-<pre id="highlight plaintext"><code>git add filename_here
-</code></pre>
+<pre id="highlight plaintext">git add filename_here
+</pre>
 
 </div>
 
@@ -84,8 +84,8 @@ git config --global user.email "tabassum@gmail.com"
 </p>
 
 <div id="card">
-<pre id="highlight plaintext"><code>git add .
-</code></pre>
+<pre id="highlight plaintext">git add .
+</pre>
 
 </div>
 
@@ -99,8 +99,8 @@ git config --global user.email "tabassum@gmail.com"
 </p>
 
 <div id="card">
-<pre id="highlight plaintext"><code>git commit
-</code></pre>
+<pre id="highlight plaintext">git commit
+</pre>
 
 </div>
 
@@ -110,8 +110,8 @@ git config --global user.email "tabassum@gmail.com"
 </p>
 
 <div id="card">
-<pre id="highlight plaintext"><code>git commit -m "first commit"
-</code></pre>
+<pre id="highlight plaintext">git commit -m "first commit"
+</pre>
 
 </div>
 
@@ -125,8 +125,8 @@ git config --global user.email "tabassum@gmail.com"
 </p>
 
 <div id="card">
-<pre id="highlight plaintext"><code>git log
-</code></pre>
+<pre id="highlight plaintext">git log
+</pre>
 
 </div>
 
@@ -140,8 +140,8 @@ git config --global user.email "tabassum@gmail.com"
 </p>
 
 <div id="card">
-<pre id="highlight plaintext"><code>git status
-</code></pre>
+<pre id="highlight plaintext">git status
+</pre>
 
 </div>
 
@@ -155,8 +155,8 @@ git config --global user.email "tabassum@gmail.com"
 </p>
 
 <div id="card">
-<pre id="highlight plaintext"><code>git rm filename
-</code></pre>
+<pre id="highlight plaintext">git rm filename
+</pre>
 
 </div>
 
@@ -170,8 +170,8 @@ git config --global user.email "tabassum@gmail.com"
 </p>
 
 <div id="card">
-<pre id="highlight plaintext"><code>git mv oldfile newfile
-</code></pre>
+<pre id="highlight plaintext">git mv oldfile newfile
+</pre>
 
 </div>
 
@@ -185,8 +185,8 @@ git config --global user.email "tabassum@gmail.com"
 </p>
 
 <div id="card">
-<pre id="highlight plaintext"><code>git branch branch_name
-</code></pre>
+<pre id="highlight plaintext">git branch branch_name
+</pre>
 
 </div>
 
@@ -200,8 +200,8 @@ git config --global user.email "tabassum@gmail.com"
 </p>
 
 <div id="card">
-<pre id="highlight plaintext"><code>git checkout branch_name
-</code></pre>
+<pre id="highlight plaintext">git checkout branch_name
+</pre>
 
 </div>
 
@@ -215,8 +215,8 @@ git config --global user.email "tabassum@gmail.com"
 </p>
 
 <div id="card">
-<pre id="highlight plaintext"><code>git branch
-</code></pre>
+<pre id="highlight plaintext">git branch
+</pre>
 
 </div>
 
@@ -230,8 +230,8 @@ git config --global user.email "tabassum@gmail.com"
 </p>
 
 <div id="card">
-<pre id="highlight plaintext"><code>git checkout -b branch_name
-</code></pre>
+<pre id="highlight plaintext">git checkout -b branch_name
+</pre>
 
 </div>
 
@@ -245,8 +245,8 @@ git config --global user.email "tabassum@gmail.com"
 </p>
 
 <div id="card">
-<pre id="highlight plaintext"><code>git merge branch_name
-</code></pre>
+<pre id="highlight plaintext">git merge branch_name
+</pre>
 
 </div>
 
@@ -260,8 +260,8 @@ git config --global user.email "tabassum@gmail.com"
 </p>
 
 <div id="card">
-<pre id="highlight plaintext"><code>git add remote https://repo_here
-</code></pre>
+<pre id="highlight plaintext">git add remote https://repo_here
+</pre>
 
 </div>
 
@@ -275,8 +275,8 @@ git config --global user.email "tabassum@gmail.com"
 </p>
 
 <div id="card">
-<pre id="highlight plaintext"><code>git clone
-</code></pre>
+<pre id="highlight plaintext">git clone
+</pre>
 
 </div>
 
@@ -290,8 +290,8 @@ git config --global user.email "tabassum@gmail.com"
 </p>
 
 <div id="card">
-<pre id="highlight plaintext"><code>git pull
-</code></pre>
+<pre id="highlight plaintext">git pull
+</pre>
 
 </div>
 
@@ -305,8 +305,8 @@ git config --global user.email "tabassum@gmail.com"
 </p>
 
 <div id="card">
-<pre id="highlight plaintext"><code>git push
-</code></pre>
+<pre id="highlight plaintext">git push
+</pre>
 </div>
 
 
@@ -315,8 +315,8 @@ git config --global user.email "tabassum@gmail.com"
 </p>
 
 <div id="card">
-<pre id="highlight plaintext"><code>git push -f
-</code></pre>
+<pre id="highlight plaintext">git push -f
+</pre>
 </div>
 
 
@@ -330,8 +330,8 @@ git config --global user.email "tabassum@gmail.com"
 </p>
 
 <div id="card">
-<pre id="highlight plaintext"><code>git rebase branch_name_here
-</code></pre>
+<pre id="highlight plaintext">git rebase branch_name_here
+</pre>
 
 </div>
 
