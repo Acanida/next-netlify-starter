@@ -31,3 +31,8 @@ yarn-error.log*
 
 # Local Netlify folder
 .netlify
+/.idea/modules.xml
+/.idea/next-netlify-starter.iml
+/.idea/inspectionProfiles/Project_Default.xml
+/.idea/vcs.xml
+/.idea/.gitignore

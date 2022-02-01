@@ -3,365 +3,374 @@ import Header from '@components/Header'
 import Footer from '@components/Footer'
 
 export default function Home() {
-  return (
+    return (
 
-      <div id="container">
-      <Head>
-        <title>Git Some Stuff</title>
+        <div id="container">
+            <Head>
+                <title>Git Some Stuff</title>
 
-      </Head>
+            </Head>
 
-      <main>
-    
+            <main>
+                <div id="highlight plaintext"></div>
 
-  <div id="card2">
-    <div id="highlight plaintext">
-    #1-how-to-check-your-git-configuration
-    </div></div>
+                <div id="card">
+                    <div id="highlight plaintext">git config -l
 
-<p>The git config command is a convenience function that is used to set Git configuration values on a global or local project level.
-</p>
+                    </div>
+                    <div id="card2">
 
-<div id="card">
-<div id="highlight plaintext">git config -l
-</div>
+                        <div id="highlight plaintext">
+                            #1-how-to-check-your-git-configuration
+                        </div>
+                    </div>
+                    <div id="highlight plaintext"></div>
+                </div>
+                <p></p>
 
-</div>
 
+                <div id="card">
+                    <div id="highlight plaintext">git config --global user.name "ACANIDA"
+                        git config --global user.email "ACANIDA@gmail.com"
 
+                    </div>
+                    <div id="card2">
+                        #2-setup-your-git-username-and-email-id
+                    </div>
+                    <div id="highlight plaintext"></div>
+                </div>
+                <p></p>
 
 
-  <div id="2-setup-your-git-username-and-email-id"> #2-setup-your-git-username-and-email-id
-  </div>
+                <div id="card">
+                    <div id="highlight plaintext">git init
 
-<p>There are many configurations and settings possible. Git config is how to assign these settings.2 important settings are username and user email.</p>
 
-<p>Name and Email address assigned to commit from local computer.
-</p>
 
-<div id="card">
-<div id="highlight plaintext">git config --global user.name "Tabassum"
-git config --global user.email "tabassum@gmail.com"
-</div>
+                    </div>
+                    <div id="card2">
+                        #3-initialize-a-git-repo
+                        <div id="highlight plaintext">The git config command is a convenience function that is used to
+                            set Git configuration values on
+                            a global or local project level.
+                        </div>
 
-</div>
+                    </div>
+                    <div id="highlight plaintext"></div>
+                </div>
+                <p></p>
 
 
+                <div id="card">
+                    <div id="highlight plaintext">git add filename_here
 
 
-  <div id="3-initialize-a-git-repo"> #3-initialize-a-git-repo
-  </div>
+                    </div>
+                    <div id="card2">
+                        #4-add-a-file-to-the-staging-area-in-git
+                    </div>
+                    <div id="highlight plaintext"></div>
+                </div>
+                <p></p>
 
-<p>This command turns a directory into an empty Git repo.
-</p>
 
-<div id="card">
-<div id="highlight plaintext">git init
-</div>
+                <div id="card">
+                    <div id="highlight plaintext">git add .
 
-</div>
 
+                    </div>
+                    <div id="card2">
+                        #5-add-all-files-in-the-staging-area-in-git
+                    </div>
+                    <div id="highlight plaintext"></div>
+                </div>
+                <p></p>
 
 
+                <div id="card">
+                    <div id="highlight plaintext">git commit
 
-  <div id="4-add-a-file-to-the-staging-area-in-git"> #4-add-a-file-to-the-staging-area-in-git
-  </div>
 
-<p>The command below will add a file to the staging area. Just replace filename_here with the name of the file you want to add to the staging area.
-</p>
+                    </div>
 
-<div id="card">
-<div id="highlight plaintext">git add filename_here
-</div>
+                    <div id="card2">
+                        #6-commit-changes-in-the-editor
+                        <div id="highlight plaintext">Name and Email address assigned to commit from local computer.
+                        </div>
 
-</div>
+                    </div>
+                    <div id="highlight plaintext"></div>
+                </div>
+                <p></p>
 
 
+                <div id="highlight plaintext"></div>
 
 
-  <div id="5-add-all-files-in-the-staging-area-in-git"> #5-add-all-files-in-the-staging-area-in-git
-  </div>
+                <div id="card">
+                    <div id="highlight plaintext">git log
 
-<p>If you want to add all files in your project to the staging area, you can use a wildcard. and every file will be added for you.
-</p>
 
-<div id="card">
-<div id="highlight plaintext">git add .
-</div>
+                    </div>
 
-</div>
+                    <div id="card2">
+                        #7-see-your-commit-history
+                        <div id="highlight plaintext">This command turns a directory into an empty Git repo.
+                        </div>
 
+                    </div>
+                    <div id="highlight plaintext"></div>
+                </div>
+                <p></p>
 
 
+                <div id="card">
+                    <div id="highlight plaintext">git status
 
-  <div id="6-commit-changes-in-the-editor"> #6-commit-changes-in-the-editor
-  </div>
 
-<p>Records the change made for the files in a local repo.
-</p>
+                    </div>
+                    <div id="card2">
+                        #8-git-status
+                    </div>
+                    <div id="highlight plaintext"></div>
+                </div>
+                <p></p>
 
-<div id="card">
-<div id="highlight plaintext">git commit
-</div>
 
-</div>
+                <div id="card">
+                    <div id="highlight plaintext">git rm filename
 
 
+                    </div>
 
-<p>You can add a commit message without opening the editor. This command lets you only specify a short summary for your commit message.
-</p>
+                    <div id="card2">
+                        <div id="highlight plaintext">
+                            #9-remove-tracked-files-from-the-current-working-tree
+                            <div id="highlight plaintext">The command below will add a file to the staging area. Just
+                                replace filename_here with the name
+                                of the file you want to add to the staging area.
+                            </div>
+                        </div>
+                    </div>
+                    <div id="highlight plaintext"></div>
+                </div>
+                <p></p>
 
-<div id="card">
-<div id="highlight plaintext">git commit -m "first commit"
-</div>
 
-</div>
+                <div id="card">
+                    <div id="highlight plaintext">git mv oldfile newfile
 
+                    </div>
 
+                    <div id="card2">
+                        <div id="highlight plaintext">
+                            #10-rename-files
+                        </div>
+                        <div id="highlight plaintext">If you want to add all files in your project to the staging area,
+                            you can use a wildcard. and
+                            every file will be added for you.
+                        </div>
 
 
-  <div id="7-see-your-commit-history"> #7-see-your-commit-history
-  </div>
+                    </div>
+                    <div id="highlight plaintext"></div>
+                </div>
+                <p></p>
 
-<p>This command shows the commit history for the current repository.
-</p>
 
-<div id="card">
-<div id="highlight plaintext">git log
-</div>
+                <div id="card">
+                    <div id="highlight plaintext">git branch branch_name
 
-</div>
 
+                    </div>
+                    <div id="card2">
 
+                        <div id="highlight plaintext">
+                            #11-create-a-new-branch
+                        </div>
+                    </div>
+                    <div id="highlight plaintext"></div>
+                </div>
+                <p></p>
 
 
-  <div id="8-git-status"> #8-git-status
-  </div>
+                <div id="card">
+                    <div id="highlight plaintext">git checkout branch_name
+                    </div>
 
-<p>This command returns the current status of the repo. If a file is in the staging area, but not committed, it shows, with git status.
-</p>
 
-<div id="card">
-<div id="highlight plaintext">git status
-</div>
+                    <div id="card2">
+                        <div id="highlight plaintext">
+                            #12-switch-to-a-newly-created-branch
+                        </div>
+                        <div id="highlight plaintext">Records the change made for the files in a local repo.
+                        </div>
 
-</div>
 
+                    </div>
+                    <div id="highlight plaintext"></div>
+                </div>
+                <p></p>
 
 
+                <div id="card">
+                    <div id="highlight plaintext">git branch
+                    </div>
 
-  <div id="9-remove-tracked-files-from-the-current-working-tree"> #9-remove-tracked-files-from-the-current-working-tree
-  </div>
 
-<p>This command expects a commit message to explain why the file was deleted.
-</p>
+                    <div id="card2">
 
-<div id="card">
-<div id="highlight plaintext">git rm filename
-</div>
+                        <div id="highlight plaintext">
+                            #13-list-branches
+                        </div>
+                    </div>
+                    <div id="highlight plaintext"></div>
+                </div>
+                <p></p>
 
-</div>
 
+                <div id="card">
+                    <div id="highlight plaintext">git checkout -b branch_name
 
 
+                    </div>
 
-  <div id="card2">
-    <div id="highlight plaintext">
-    #10-rename-files
-    </div></div>
+                    <div id="card2">
+                        <div id="highlight plaintext">
+                            #14-create-a-branch-in-git-and-switch-to-it-immediately
+                        </div>
+                        <div id="highlight plaintext">You can add a commit message without opening the editor. This
+                            command lets you only specify a
+                            short summary for your commit message.
+                        </div>
 
-<p>This command stages the changes, then it expects a commit message.
-</p>
 
-<div id="card">
-<div id="highlight plaintext">git mv oldfile newfile
-</div>
+                    </div>
+                </div>
+                <p></p>
 
-</div>
 
+                <div id="card">
+                    <div id="highlight plaintext">git merge branch_name
 
 
+                        <div id="card2">
 
-  <div id="card2">
-    <div id="highlight plaintext">
-    #11-create-a-new-branch
-    </div></div>
+                            <div id="highlight plaintext">
+                                #15-merge-two-branches
+                            </div>
+                        </div>
+                        <div id="highlight plaintext"></div>
+                    </div>
+                </div>
+                <p></p>
 
-<p>By default, you have one branch, the main branch. With this command, you can create a new branch. Git won't switch to it automatically – you will need to do it manually with the next command.
-</p>
 
-<div id="card">
-<div id="highlight plaintext">git branch branch_name
-</div>
+                <div id="card">
+                    <div id="highlight plaintext">git add remote https://repo_here
+                    </div>
 
-</div>
 
+                    <div id="card2">
+                        <div id="highlight plaintext">
+                            #16-add-a-remote-repository-in-git
+                        </div>
+                        <div id="highlight plaintext">This command shows the commit history for the current repository.
+                        </div>
 
 
+                    </div>
+                </div>
+                <div id="highlight plaintext"></div>
 
-  <div id="card2">
-    <div id="highlight plaintext">
-    #12-switch-to-a-newly-created-branch
-    </div></div>
+                <p></p>
 
-<p>When you want to use a different or a newly created branch you can use this command:
-</p>
 
-<div id="card">
-<div id="highlight plaintext">git checkout branch_name
-</div>
+                <div id="card">
+                    <div id="highlight plaintext">git clone
+                    </div>
 
-</div>
 
+                    <div id="card2">
+                        <div id="highlight plaintext">#17 This command returns the current status of the repo. If a file
+                            is in the staging area, but not committed, it shows, with git status.
+                        </div>
 
 
+                    </div>
+                </div>
 
-  <div id="card2">
-    <div id="highlight plaintext">
-    #13-list-branches
-    </div></div>
+                <div id="highlight plaintext"></div>
 
-<p>You can view all created branches using the git branch command. It will show a list of all branches and mark the current branch with an asterisk and highlight it in green.
-</p>
 
-<div id="card">
-<div id="highlight plaintext">git branch
-</div>
+                <p></p>
 
-</div>
+                <div id="card">
+                    <div id="highlight plaintext">git pull
+                    </div>
 
 
+                    <div id="card2">
+                        <div id="highlight plaintext">
+                            #18-pull-changes-to-a-remote-repo
+                        </div>
+                        <div id="highlight plaintext">This command expects a commit message to explain why the file was
+                            deleted.
+                        </div>
 
 
-  <div id="card2">
-    <div id="highlight plaintext">
-    #14-create-a-branch-in-git-and-switch-to-it-immediately
-    </div></div>
+                    </div>
+                </div>
 
-<p>In a single command, you can create and switch to a new branch right away.
-</p>
+                <div id="highlight plaintext"></div>
 
-<div id="card">
-<div id="highlight plaintext">git checkout -b branch_name
-</div>
+                <p></p>
 
-</div>
+                <div id="card">
+                    <div id="highlight plaintext">git push
+                    </div>
 
+                <div id="card2">
+                    <div id="highlight plaintext">
+                        #19-push-changes-to-a-remote-repo
+                    </div>
+                    <div id="highlight plaintext">This command stages the changes, then it expects a commit message.
+                    </div>
+                    <div id="highlight plaintext">After committing your changes, the next thing you want to do is send your
+                        changes to the remote
+                        server. Git push uploads your commits to the remote repository.
+                    </div>
+                </div>
 
+                </div>
 
+                <p></p>
 
-  <div id="card2">
-    <div id="highlight plaintext">
-    #15-merge-two-branches
-    </div></div>
+                <div id="card">
+                    <div id="highlight plaintext">git push -f
+                    </div>
 
-<p>To merge the history of the branch you are currently in with the branch_name, you will need to use the command below:
-</p>
+                    <div id="card2">
+                <div id="highlight plaintext">force push:
+                </div>
+                    </div>
+                </div>
 
-<div id="card">
-<div id="highlight plaintext">git merge branch_name
-</div>
+                <p> </p>
 
-</div>
+                <div id="card">
+                    <div id="highlight plaintext">git rebase branch_name_here
 
 
+                </div>
+                <div id="card2">
+                    <div id="highlight plaintext">#20-how-to-use-git-rebase</div>
 
+                </div>
+                </div>
+            </main>
 
-  <div id="card2">
-    <div id="highlight plaintext">
-    #16-add-a-remote-repository-in-git
-    </div></div>
-
-<p>This command adds a remote repository to your local repository
-</p>
-
-<div id="card">
-<div id="highlight plaintext">git add remote https://repo_here
-</div>
-
-</div>
-
-
-
-
-  <div id="card2">
-    <div id="highlight plaintext">
-    #17-cloning-other-repos
-    </div></div>
-
-<p>Git clone is a command for downloading existing source code from a remote repository (like Github, for example). In other words, Git clone basically makes an identical copy of the latest version of a project in a repository and saves it to your computer.
-</p>
-
-<div id="card">
-<div id="highlight plaintext">git clone
-</div>
-
-</div>
-
-
-
-
-  <div id="card2">
-    <div id="highlight plaintext">
-    #18-pull-changes-to-a-remote-repo
-    </div></div>
-
-<p>The git pull command allows you to download updates from a remote repository. Using this command, you execute both git fetch and git merge operations, which means local changes are updated and updates are uploaded to remote repositories
-</p>
-
-<div id="card">
-<div id="highlight plaintext">git pull
-</div>
-
-</div>
-
-
-
-
-  <div id="card2">
-    <div id="highlight plaintext">
-    #19-push-changes-to-a-remote-repo
-    </div></div>
-
-<p>After committing your changes, the next thing you want to do is send your changes to the remote server. Git push uploads your commits to the remote repository.
-</p>
-
-<div id="card">
-<div id="highlight plaintext">git push
-</div>
-</div>
-
-
-
-<p>force push:
-</p>
-
-<div id="card">
-<div id="highlight plaintext">git push -f
-</div>
-</div>
-
-
-
-
-  <div id="20-how-to-use-git-rebase">#20-how-to-use-git-rebase
-  </div>
-
-
-<p>You can transfer completed work from one branch to another using git-rebase.
-</p>
-
-<div id="card">
-<div id="highlight plaintext">git rebase branch_name_here
-</div>
-
-</div>
-
-
-
-      </main>
-
-      <Footer />
-    </div>
-  )
+            <Footer/>
+        </div>
+    )
 }

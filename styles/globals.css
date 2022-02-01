@@ -13,20 +13,16 @@ body {
 main {
   padding: 5rem 0;
   flex: 1;
+  width: 100vw;
   display: flex;
   flex-direction: column;
-  justify-content: center;
+  justify-content: flex-start;
   align-items: center;
+  overflow: scroll;
 }
 
-code {
-  background: #fafafa;
-  border-radius: 5px;
-  padding: 0.75rem;
-  font-family: Menlo, Monaco, Lucida Console, Courier New, monospace;
-}
 
-.container {
+#container {
   height: 100vh;
   display: flex;
   flex-direction: column;
@@ -36,14 +32,19 @@ code {
 
 #card {
   flex-direction: column;
-  min-width: 0;
-  word-wrap: break-word;
-  background-clip: border-box;
   border: 15px solid rgba(0, 0, 0, .125);
   border-radius: 0.25rem;
-  background: #007bff;
-  color: white;
+  background: #355983;
+  color: #F1F1F1FF;
   font-weight: bolder;
+  padding: 5px;
+  justify-content: center;
+  align-items:center;
+  text-align: center;
+  padding: 5px;
+  margin: 5px;
+  width: 40%;
+;
 }
 
 #card2 {
@@ -51,31 +52,25 @@ code {
   min-width: 0;
   word-wrap: break-word;
   background-clip: border-box;
-  border: 15px solid rgba(71, 175, 41, .125);
+  border: 15px solid rgba(7, 9, 31, 0.12);
   border-radius: 0.25rem;
-  background: #47AF29;
-  color: white;
+  background: #21262a;
+  color: #F1F1F1FF;
   font-weight: bolder;
+  padding: 5px;
+  align-items:center;
+  justify-content: center;
+  margin: 7px;
 }
 
 
 #highlight plaintext{
-   position:relative;
-   margin:0.1em;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
   color: white;
+  padding: 5px;
  }
-#highlight plaintext:before{
-  content:"";
-  z-index:-1;
-  left:-0.5em;
-  top:0.1em;
-  border-width:0.5em;
-  border-style:solid;
-  border-color:lightgreen;
-  position:absolute;
-  width:100%;
-  border-left-color:transparent;
-  border-right-color:transparent;
-  background:#A7A7A7;
 
-}
+
